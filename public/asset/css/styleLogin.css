@@ -1,12 +1,16 @@
+
 .home-wrap{
-	padding: 4rem 0;
+	padding: 20px;
+	
+}
+.content-login{
+	width: 100%;
 }
 .login-wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
 }
 .login-image{
 	max-width: 500px;
@@ -19,13 +23,12 @@
 .txtRegister {
 	border-bottom: 5px solid #6c63ff;
 	display: block;
-	width: 24%;
+	width: 30%;
 	font-weight: bold;
 	color: #6c63ff;
 	text-align: center;
 }
 .login-content{
-	padding: 20px 50px;
 	width: 100%;
 	background-color: #fff;
 	border-radius: 6px;
