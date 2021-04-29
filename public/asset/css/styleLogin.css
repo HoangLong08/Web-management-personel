@@ -1,0 +1,32 @@
+.home-wrap{
+	padding: 4rem 0;
+}
+.login-wrap{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.login-image{
+	max-width: 500px;
+	height: 500px;
+}
+.login-image img{
+	width: 100%;
+	height: auto;
+}
+.txtRegister {
+	border-bottom: 5px solid #6c63ff;
+	display: block;
+	width: 24%;
+	font-weight: bold;
+	color: #6c63ff;
+	text-align: center;
+}
+.login-content{
+	padding: 20px 50px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 6px;
+}
