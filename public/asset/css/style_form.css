@@ -1,0 +1,39 @@
+.txtTitle{
+    border-bottom: 5px solid #6c63ff;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	color: #6c63ff;
+	text-align: center;
+}
+.label_title{
+	font-weight: bold;
+}
+.txtleft{
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	color: #6c63ff;
+	text-align: center;
+}
+.home-wrap{
+	padding: 20px;
+	
+}
+.content-login{
+	width: 100%;
+}
+.login-wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.login-image{
+	max-width: 500px;
+	height: 300px;
+}
+.login-image img{
+	width: 100%;
+	height: auto;
+}
