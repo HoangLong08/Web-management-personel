@@ -1,0 +1,26 @@
+https://stackoverflow.com/questions/56942397/how-to-fix-500-response-in-a-laravel-project/56942653
+1- Clone the github repo:
+git clone https://github.com/SagarMaheshwary/laravel-react-beginners.git
+2 - Go the project directory:
+cd laravel-react-beginners
+3 -Install the project dependencies:
+composer install
+ ---- Copy the .env.example to .env or simly rename it:
+ + If linux:
+cp .env.example .env
+ + If windows:
+copy .env.example .env
+4 - Create the application key:
+php artisan key:generate
+5 - Start the laravel server:
+php artisan serve
+
+
+
+
+
+  <?php 
+                                    $permitted_chars = '0123456789abcdefghijklmnopqrstuvwxyz';
+                                    $tmp = substr(str_shuffle($permitted_chars), 0, 10)?>
+                                    <input type="text" class="form-control" name="machitietphongban" id="machitietphongban" value="<?php echo $tmp ?>">
+							

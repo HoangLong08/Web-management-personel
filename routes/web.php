@@ -22,3 +22,41 @@ Route::post('/login', [AccountController::class, 'actionLogin']);
 Route::get('/home', function () {
     return view('master');
 });
+
+
+Route::get('/bangnhanvien', function () {
+    return view('components.bangnhanvien');
+});
+Route::get('/banghopdong', function () {
+    return view('components.banghopdong');
+});
+Route::get('/bangkhenthuong', function () {
+    return view('components.bangkhenthuong');
+});
+Route::get('/bangkyluat', function () {
+    return view('components.bangkyluat');
+});
+Route::get('/bangquatrinhcongtac', function () {
+    return view('components.bangquatrinhcongtac');
+});
+Route::get('/bangbaohiem', function () {
+    return view('components.bangbaohiem');
+});
+Route::get('/bangdieudongcongtac', function () {
+    return view('components.bangdieudongcongtac');
+});
+Route::get('/bangphongban', function () {
+    return view('components.bangphongban');
+});
+Route::get('/bangchucvu', function () {
+    return view('components.bangchucvu');
+});
+Route::get('/bangtrinhdochuyenmon', function () {
+    return view('components.bangtrinhdochuyenmon');
+});
+Route::get('/bangquanlyhopdong', function () {
+    return view('components.bangquanlyhopdong');
+});
+Route::get('/bangquanlyluong', function () {
+    return view('components.bangquanlyluong');
+});

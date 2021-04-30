@@ -1,3 +1,30 @@
+<!-- FROME BẢNG  -->
+
+<div class="login-content">
+	<h3 class="txtRegister">BẢNG THÔNG TIN NHÂN VIÊN</h3>
+	<form action="/login" method="POST" id="login-form">
+		@csrf
+		<div class="form-group">
+			<label for="userName">Tên đăng nhập</label>
+			<input type="text" class="form-control" name="userName" id="userName" placeholder="Nhập tên đăng nhập">
+			<small id="emailHelp" class="form-text" style="color: red"></small>
+		</div>
+		<div class="form-group">
+			<label for="passWord">Mật khẩu</label>
+			<input type="password" class="form-control" name="passWord" id="passWord" placeholder="Nhập mật khẩu">
+			<small id="passwordHelp" class="form-text" style="color: red"></small>
+		</div> 
+		<div class="btn-login text-center mb-4">
+			<p class="notifyLogin" style="color: red"></p>
+			<button type="submit" class="btn btn-primary form-control" style="background-color: #6c63ff" id="submitLogin">Đăng nhập</button>
+		</div>
+	</form>
+</div>
+
+
+<!-- END FROME BẢNG  -->
+
+
 
 <div class="row">
 	<div id="sidebar" class="column">
@@ -283,9 +310,18 @@
 			<div class="row">
 				<div class="column">100%</div>
 			</div>
+
+
+
 		</div>
 	</section>
+	
+
+
 </div>
+
+
+
 
 @section('script')
 	<script src={{ asset('asset/js/chart.min.js') }}></script>
